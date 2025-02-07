@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>C_</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Input.cs" />
+    <Compile Remove="Methods\Method.cs" />
+    <Compile Remove="Methods\MethodOverloading.cs" />
+    <Compile Remove="Methods\ReturnMethod.cs" />
+    <Compile Remove="Program.cs" />
+    <Compile Remove="Pyramid.cs" />
+    <Compile Remove="Strings\Concantination.cs" />
+    <Compile Remove="Strings\Numbers.cs" />
+    <Compile Remove="Strings\Replace.cs" />
+    <Compile Remove="Strings\StringMethods.cs" />
+    <Compile Remove="Strings\SubStrings.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Methods\" />
+    <Folder Include="Strings\" />
+  </ItemGroup>
+
+</Project>
